@@ -23,13 +23,13 @@ export default function Home() {
         {/* Produk Unggulan Section */}
         <section id="products" className="py-16 bg-gray-100">
           <div className="max-w-7xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-8">
+            <h2 className="text-3xl font-bold text-center mb-8 text-black">
               Produk Unggulan
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <ProductCard title="Kayu Meranti" image="/images/product1.jpg" />
-              <ProductCard title="Kayu Kamper" image="/images/product2.jpg" />
-              <ProductCard title="Kayu Mahoni" image="/images/product3.jpg" />
+              <ProductCard title="Kayu Meranti" image="/images/Gambar2.jpeg" />
+              <ProductCard title="Kayu Kamper" image="/images/Gambar3.jpeg" />
+              <ProductCard title="Kayu Mahoni" image="/images/Gambar4.jpeg" />
             </div>
           </div>
         </section>
