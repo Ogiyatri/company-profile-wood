@@ -8,7 +8,7 @@ type ProductCardProps = {
 
 export default function ProductCard({ title, image }: ProductCardProps) {
   return (
-    <div className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform">
+    <div className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
       <Image
         src={image}
         alt={title}
