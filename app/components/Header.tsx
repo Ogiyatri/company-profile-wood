@@ -10,22 +10,25 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-gray-800">
+        <Link
+          href="/"
+          className="text-2xl font-bold text-gray-800 hover:text-green-600"
+        >
           ABUS WOOD
         </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8 items-center">
-          <Link href="/" className="text-gray-700 hover:text-brown-600">
+          <Link href="/" className="text-gray-700 hover:text-green-600">
             Home
           </Link>
-          <Link href="/about" className="text-gray-700 hover:text-brown-600">
+          <Link href="/about" className="text-gray-700 hover:text-green-600">
             About Us
           </Link>
 
           {/* Dropdown Menu for Products */}
           <div className="relative group">
-            <button className="flex items-center text-gray-700 hover:text-brown-600">
+            <button className="flex items-center text-gray-700 hover:text-green-600">
               Products
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,31 +49,31 @@ export default function Header() {
             <div className="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg group-hover:block group-focus-within:block">
               <Link
                 href="/products/board"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Board
               </Link>
               <Link
                 href="/products/stick-wood"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Stick Wood
               </Link>
               <Link
                 href="/products/floring"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Flooring
               </Link>
               <Link
                 href="/products/decking"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Decking
               </Link>
               <Link
                 href="/products/custom-inquiries"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Custom Inquiries
               </Link>
@@ -79,7 +82,7 @@ export default function Header() {
 
           {/* Dropdown Menu for Information */}
           <div className="relative group">
-            <button className="flex items-center text-gray-700 hover:text-brown-600">
+            <button className="flex items-center text-gray-700 hover:text-green-600">
               Information
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -100,24 +103,24 @@ export default function Header() {
             <div className="absolute left-0 hidden mt-2 w-48 bg-white shadow-lg group-hover:block group-focus-within:block">
               <Link
                 href="/information/activities"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Activities
               </Link>
               <Link
                 href="/information/article"
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100"
               >
                 Article & Blog
               </Link>
             </div>
           </div>
 
-          <Link href="/gallery" className="text-gray-700 hover:text-brown-600">
+          <Link href="/gallery" className="text-gray-700 hover:text-green-600">
             Gallery
           </Link>
 
-          <Link href="/contact" className="text-gray-700 hover:text-brown-600">
+          <Link href="/contact" className="text-gray-700 hover:text-green-600">
             Contact Us
           </Link>
         </nav>
@@ -188,7 +191,10 @@ export default function Header() {
             <div className="space-y-2">
               <p className="font-semibold text-gray-700">Information</p>
               <div className="pl-4 space-y-1">
-                <Link href="/information/activities" className="block text-gray-600">
+                <Link
+                  href="/information/activities"
+                  className="block text-gray-600"
+                >
                   Activities
                 </Link>
                 <Link
