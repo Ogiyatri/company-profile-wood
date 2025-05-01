@@ -14,7 +14,7 @@ export default function AboutUs() {
           {/* Gambar pertama */}
           <div className="relative z-0">
             <Image
-              src="/images/Gambar4.jpeg" // Ganti dengan gambar kiri
+              src="/images/Gambar4.jpeg"
               alt="Gambar4"
               width={500}
               height={450}
@@ -22,13 +22,12 @@ export default function AboutUs() {
             />
             {/* Gambar kedua (di atas gambar pertama) */}
               <Image
-                src="/images/Gambar3.jpeg" // Ganti dengan gambar kanan
+                src="/images/Gambar3.jpeg" 
                 alt="Gambar3"
                 width={500}
                 height={450}
                 className="relative bottom-10 left-10 rounded-lg object-cover shadow-lg transform transition-transform duration-300 hover:scale-90"
               />
-            
           </div>
         </div>
 
